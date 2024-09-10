@@ -44,4 +44,15 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
   },
+  priceControls: {
+    flexDirection: "row",
+    justifyContent: "space-around",
+    paddingBottom: 10,
+    alignItems: "center",
+    marginTop: 10,
+  },
+  price: {
+    fontSize: 18,
+    color: "#fff",
+  },
 });
