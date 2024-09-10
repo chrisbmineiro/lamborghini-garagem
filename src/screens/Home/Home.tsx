@@ -1,6 +1,7 @@
 import { View } from "react-native";
 import React from "react";
 import { styles } from "./HomeStyles";
+import CardView from "../../components/CardView/CardView";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <View style={[styles.triangleCorner, styles.topRight]}></View>
         <View style={[styles.triangleCorner, styles.bottomLeft]}></View>
         <View style={[styles.triangleCorner, styles.bottomRight]}></View>
+        <CardView />
       </View>
     </View>
   );
